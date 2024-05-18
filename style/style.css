@@ -13,6 +13,15 @@ a {
 p {
     margin: 0;
     padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
 }
 button {
     border: none;
@@ -157,13 +166,11 @@ button {
     display: flex;
     align-items: center;
     padding: 96px 0 131px 0;
-    box-shadow: 0px 37px 50px 0px #f3f0f0
-    
+    box-shadow: 0px 37px 50px 0px #f3f0f0;
 }
 .provide-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
 }
 .right-side {
    margin-left: 100px;
@@ -196,3 +203,308 @@ button {
     position: absolute;
     right: 448px;
 }
+.plans {
+    padding: 81px 0 0 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.plans-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.plans-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin: 20px 0 60px 0;
+}
+.plans-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+.grid-card {
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background: #FFFFFF;
+    position: relative;
+}
+.grid-card__item {
+    margin-top: 79px;
+    padding-bottom: 50px;
+}
+.grid-card__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    margin-bottom: 20px;
+}
+.plans-list {
+    display: block;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.plans-svg {
+    position: absolute;
+    left: 40px;
+}
+.plans-list__item {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 110px;
+}
+.grid-card__price {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.grid-card__price-dtl {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.grid-card__btn {
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    width: 178px;
+    height: 45px;
+    color: #F53838;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.96px;
+}
+.grid-card__btn-red {
+    color: #FFFFFF;
+    background-color: #F53838;
+    box-shadow: -3px 30px 20px -6px #f7cfcf;
+}
+.plans-list__bottom-side1 {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+.plans-list__bottom-side2 {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+.network {
+    padding: 150px 0 50px 0;
+    text-align: center;
+}
+.network-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.network-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.network-img {
+    margin: 150px 0 35px 0;
+}
+.reviews {
+    text-align: center;
+}
+.reviews__title {
+    max-width: 447.81px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+.reviews__desc {
+    max-width: 555px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.reviews__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+    margin-left: 100px;
+   
+}
+.reviews__grid-cards {
+    display: flex;
+    gap: 50px;
+    
+}
+.reviews__card {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+}
+.reviews__card:hover {
+    border: 2px solid #F53838;
+    box-shadow: 0px 37px 50px 0px #f3f0f0;
+}
+
+.card-info__person {
+    display: flex;
+}
+.person__details {
+    text-align: left;
+    margin-right: 62px;
+}
+.person__name {
+    list-style: none;
+    font-weight: 500;
+    font-style: 18px;
+    color: #0B132A;
+    line-height: 30px; 
+}
+.person__country {
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+.person__rating {
+    font-size: 16px;
+    color: #0B132A;
+    display: flex;
+    margin-top: 40px;  
+}
+.person__text {
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+}
+.svg__rate {
+    margin-left: 10px;
+}
+.reviews__animation {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dots__img {
+    height: 15px;
+}
+.reviews__button {
+    display: flex;
+}
+.left__button {
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+.left__button:hover {
+    box-shadow: 0 0 50px #F53838;
+  }
+  .right__button {
+    border: none;
+    border-radius: 50px;
+    background-color: #F53838;
+    padding: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+  }
+  .right__button:hover {
+    box-shadow: 0 0 50px #F53838;
+  }
+  .subscribe {
+    max-width: 1140px;
+    height: 233px;
+    padding: 66px 0 66px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+  }
+  .subscribe__info {
+    text-align: left;
+    width: 371px;
+  }
+  .subscribe__button {
+    width: 250px;
+    height: 60px;
+    border: 1px solid #F53838;
+    border-radius: 10px;
+    background-color: #F53838;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    box-shadow: -3px 40px 20px -6px #f7cfcf;
+  }
+  footer {
+    background-color: #F8F8F8;
+    padding: 180px 0 141px 0;
+    
+  }
+  .footer__nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo__img-desc {
+    margin: 20px 0 30px 0;
+    max-width: 340px;
+  }
+  
+  .social {
+    background: transparent;
+    margin-left: -20px;
+  }
+  .date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 13px;
+    color: #AFB5C0
+  }
+  .footer__nav {
+    list-style: none;
+    display: inline-block;
+    
+  }
+  .footer__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+  }
+  .footer__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+  }
+  .nav-second {
+    margin-left: 126px;
+    margin-right: 126px;
+  }
+
+
+ 
+
